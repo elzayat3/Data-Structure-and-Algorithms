@@ -11,10 +11,14 @@
             "id": "99a051b023035d11",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Lectures/1-Intro in Data structure and algorithm.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1-Intro in Data structure and algorithm"
             }
           }
         ]
@@ -182,5 +186,21 @@
     }
   },
   "active": "99a051b023035d11",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Lectures/2-Problem Solving TOH & Array as ADT.md",
+    "Lectures/3-Array representation by compiler & Problem Solving.md",
+    "Attachments/Pasted image 20261026223035.png",
+    "Attachments/Pasted image 20261026185905.png",
+    "Lectures/1-Intro in Data structure and algorithm.md",
+    "Attachments/Pasted image 20261026181352.png",
+    "Attachments/Pasted image 20261026180655.png",
+    "Attachments/Pasted image 20261026180636.png",
+    "Attachments/Pasted image 20261026175953.png",
+    "Attachments/Pasted image 20261026133209 1.png",
+    "Attachments/Pasted image 20261026172341.png",
+    "Attachments/Pasted image 20261026170453.png",
+    "Attachments/Pasted image 20261026170023.png",
+    "Attachments",
+    "New folder"
+  ]
 }
