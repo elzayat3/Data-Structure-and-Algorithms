@@ -126,8 +126,10 @@ int main()
 
     print_vector(v2,"vector  dup");
 
-    std::vector<int>::iterator last=std::unique(v2.begin(), v2.end());
+    // Move consecutive unique elements to the front and return an iterator to the new logical end.
+    std::vector<int>::iterator last = std::unique(v2.begin(), v2.end());
 
+    // Erase the remaining elements to actually shrink the vector.
     v2.erase(last, v2.end());
 
     print_vector(v2,"vector 2 not dup");
@@ -137,11 +139,11 @@ int main()
 
     std::vector<int> v8{5,4,3,2,1,1,4,3,2};
 
-    std::ranges::sort(v8.begin()+1,v8.end()-1);
+    //std::ranges::sort(v8.begin()+1,v8.end()-1);
     
     print_vector(v8,"vector 8");
 
-    std::ranges::reverse(v8.begin()+1,v8.end()-1);
+    //std::ranges::reverse(v8.begin()+1,v8.end()-1);
 
     print_vector(v8,"vector 8");
 
